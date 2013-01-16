@@ -1,0 +1,22 @@
+{
+  "wsPort" : 8080,
+  "wsPubURL" : "http://10.22.14.22:8088",
+  "Log" : {
+    "enableOutputConsole" : true,
+    "fileLog" : {
+        "enable" : false,
+        "wsLogPath" : "/log",
+        "maxSizeInMBitOfLogfile" : 200
+    }
+  },
+  "enableClientDebugMode" : true,
+  "enableCluster" : false,
+  "minimizeJsCss" : false,
+  "SSL" : {
+    "enableSSL" : false,
+  	"sslKey" : "./app/ssl/server.key",
+  	"sslCert" : "./app/ssl/server.crt",
+  	"sslCA" : "./app/ssl/ca.crt",
+  	"passphrase" : "1234QWER"
+  }
+}

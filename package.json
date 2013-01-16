@@ -1,0 +1,11 @@
+{
+  "name": "my-application",
+  "version": "0.0.1",
+  "description": "My application description.",
+  "main": "app.js",
+  "dependencies" : {
+    "express" : "3.x",
+    "jade" : "",
+    "winston" : ""
+  }
+}

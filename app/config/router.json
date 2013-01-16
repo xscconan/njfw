@@ -1,0 +1,10 @@
+{
+	"index" :{
+		"path" : "/",
+		"method" : "get"
+	},
+	"webrtc" : {
+		"path" : "/webrtc",
+		"method" : "get"
+	}
+}
